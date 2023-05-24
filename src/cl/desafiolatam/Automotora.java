@@ -21,6 +21,11 @@ public class Automotora {
 		int stockfinal = tienda1.existeStock();
 		System.out.println(stockfinal);
 		
+		Cliente cliente1 = new Cliente ("184869842", "juanito", 56);
+		
+		LibroVenta venta1 = new LibroVenta ("ventaminibus", 19042010);
+		venta1.guardarVenta(cliente1, minibus1);
+		
 	}
 	
 	
